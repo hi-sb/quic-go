@@ -258,6 +258,8 @@ type Config struct {
 	// QUIC Event Tracer.
 	// Warning: Experimental. This API should not be considered stable and will change soon.
 	QuicTracer quictrace.Tracer
+	// request local port
+	LocalPort int
 }
 
 // A Listener for incoming QUIC connections
